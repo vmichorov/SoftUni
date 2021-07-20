@@ -13,7 +13,7 @@ async function startApp() {
     routerCfg(app);
 
     app.get('/', (req, res) => {
-        res.send('It works!');
+        res.send('Home page');
     })
 
     app.listen(PORT, () => {
