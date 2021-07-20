@@ -12,11 +12,7 @@ async function startApp() {
     expressCfg(app);
     routerCfg(app);
 
-    app.get('/', (req, res) => {
-        res.send('Home page');
-    })
-
     app.listen(PORT, () => {
-        console.log(`Application started on http://localhost:${PORT}`);
+        console.log(`Server listening on port ${PORT}`);
     });
 }

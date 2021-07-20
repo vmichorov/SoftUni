@@ -1,4 +1,4 @@
 module.exports = () => (req, res, next) => {
-    req.storage = {};
-    next();
-}
+  req.storage = {};
+  next();
+};
